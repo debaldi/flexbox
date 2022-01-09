@@ -52,3 +52,18 @@ Altera para quebra de linha, para se encaixar dentro do container
 .quebra-linha-reverso{
     flex-wrap: wrap-reverse;
 }
+
+/* flex-flow
+Shorthand de flex-direction e flex-wrap */
+.linha-sem-quebra{
+    flex-flow: row nowrap;
+}
+.linha-com-quebra{
+    flex-flow: row wrap;
+}
+.coluna-com-quebra{
+    flex-flow: column;
+}
+.coluna-com-quebra-reversa{
+    flex-flow: column-reverse;
+}
