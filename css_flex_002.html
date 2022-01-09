@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox 02</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            color: #000;
+            text-align: center;
+        }
+        .item{
+            margin: 5px;
+            padding: 5px;
+            background: #447;
+            text-align: center;
+            font-size: 1em;
+            color: #fff;
+        }
+        .container{
+            max-width: 500px;
+            margin: 0px auto;
+            border: 1px solid #000;            
+        }
+
+/* display:flex */
+        .flexivel{
+            display: flex;
+        }
+
+/* flex-direction */
+        .horizontal{
+            flex-direction: row;
+        }
+        .horizontal-reverso{
+            flex-direction: row-reverse;
+        }
+        .vertical{
+            flex-direction: column;
+        }
+        .vertical-reverso{
+            flex-direction: column-reverse
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1>Propriedade flex-direction</h1>
+    
+    <div class="container flexivel vertical">
+        <div class="item">Flex Box 1</div>
+        <div class="item">Flex Box 2</div>
+        <div class="item">Flex Box 3</div>
+        <div class="item">Flex Box 4</div>
+        <div class="item">Flex Box 5</div>
+        <div class="item">Flex Box 6</div>
+        <div class="item">Flex Box 7</div>
+        <div class="item">Flex Box 8</div>
+        <div class="item">Flex Box 9</div>
+        <div class="item">Flex Box 10</div>
+    </div>
+    
+</body>
+</html>
