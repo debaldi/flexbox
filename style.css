@@ -67,3 +67,25 @@ Shorthand de flex-direction e flex-wrap */
 .coluna-com-quebra-reversa{
     flex-flow: column-reverse;
 }
+
+/* justify-content
+Alinhamento dos elementos pelo eixo principal 'main', dependendo da propriedade flex-direction.
+*/
+.alinhamento-comeco{
+    justify-content: flex-start;
+}
+.alinhamento-fim{
+    justify-content: flex-end;
+}
+.alinhamento-meio{
+    justify-content: center;
+}
+.alinhamento-esquerda-direita{
+    justify-content: space-between;
+}
+.espacamento-esquerda-direita{
+    justify-content: space-around;
+}
+.espacamento-igual{
+    justify-content: space-evenly;
+}
