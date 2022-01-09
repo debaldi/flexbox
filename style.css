@@ -4,8 +4,8 @@ body{
     text-align: center;
 }
 .item{
-    margin: 5px;
     padding: 5px;
+    margin: 5px;
     background: #447;
     text-align: center;
     font-size: 1em;
@@ -71,21 +71,40 @@ Shorthand de flex-direction e flex-wrap */
 /* justify-content
 Alinhamento dos elementos pelo eixo principal 'main', dependendo da propriedade flex-direction.
 */
-.alinhamento-comeco{
+.alinhamento-main-comeco{
     justify-content: flex-start;
 }
-.alinhamento-fim{
+.alinhamento-main-fim{
     justify-content: flex-end;
 }
-.alinhamento-meio{
+.alinhamento-main-meio{
     justify-content: center;
 }
-.alinhamento-esquerda-direita{
+.alinhamento-main-esquerda-direita{
     justify-content: space-between;
 }
-.espacamento-esquerda-direita{
+.espacamento-main-esquerda-direita{
     justify-content: space-around;
 }
-.espacamento-igual{
+.espacamento-main-igual{
     justify-content: space-evenly;
+}
+
+/* align-items
+Alinhamento dos elementos pelo eixo secundário 'cross', dependendo da propriedade flex-direction.
+*/
+.alinhamento-cross-esticado{
+    align-items: stretch;
+}
+.alinhamento-cross-comeco{
+    align-items: flex-start;
+}
+.alinhamento-cross-fim{
+    align-items: flex-end;
+}
+.alinhamento-cross-meio{
+    align-items: center;
+}
+.alinhamento-cross-base{
+    align-items: baseline;
 }
