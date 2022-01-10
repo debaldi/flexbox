@@ -108,3 +108,26 @@ Alinhamento dos elementos pelo eixo secundário 'cross', dependendo da proprieda
 .alinhamento-cross-base{
     align-items: baseline;
 }
+
+/* align-content
+Alinhamento dos elementos pelo eixo secundário 'cross' dependendo da propriedade flex-wrap:wrap, sem as distribuições dos itens que o align-items faz.
+*/
+.alinhamento-content-cross-esticado{
+    align-content: stretch;
+}
+.alinhamento-content-cross-comeco{
+    align-content: flex-start;
+}
+.alinhamento-content-cross-fim{
+    align-content: flex-end;
+}
+.alinhamento-content-cross-meio{
+    align-content: center;
+}
+.espacamento-content-cross-esquerda-direita{
+    align-content: space-around;
+}
+.alinhamento-content-cross-esquerda-direita{
+    align-content: space-between;
+}
+
