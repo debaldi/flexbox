@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>FlexBox 07</title>  
+    <style>       
+        .container{                        
+            height: 400px;
+        }
+        
+/*
+informando que na classe .item tem:
+padding: 5px;
+margin: 5px;
+então é feito um calculo para que os elementos caibão dentro da linha com uma função calc(-20px); e o pedding e a margin não atrapalhem.
+*/
+        .item{
+            height: 40px;
+            width: calc( 33.3333% - 20px);
+        }
+
+    </style>  
+</head>
+<body>
+
+    <h1>Propriedade Align-Content</h1>
+    
+    <div class="container flexivel horizontal quebra-linha alinhamento-content-cross-esquerda-direita">
+        <div class="item">Flex Box 1</div>
+        <div class="item">Flex Box 2</div>
+        <div class="item">Flex Box 3</div>
+        <div class="item">Flex Box 4</div>
+        <div class="item">Flex Box 5</div>
+        <div class="item">Flex Box 6</div>
+        <div class="item">Flex Box 7</div>
+        <div class="item">Flex Box 8</div>
+    </div>
+    
+</body>
+</html>
