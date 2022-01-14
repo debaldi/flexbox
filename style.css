@@ -148,3 +148,19 @@ Alinhamento dos elementos pelo eixo secundário 'cross' dependendo da propriedad
     flex-grow: 7;
 }
 
+/* flax-basis
+    É o tamanho base do elemento (item) quando usamos flex-grow.
+    O flex-basis define o tamanho inicial que um item deve ter antes que o espaço ao seu redor seja distribuído. Ou seja, dependendo da direção do eixo principal (horizontal ou vertical), essa propriedade define a largura ou altura mínima do elemento antes que ele seja redimensionado por outras propriedades.
+*/
+.basea{
+    flex-basis: auto;
+}
+.base0{
+    flex-basis: 0;
+}
+.base1{
+    flex-basis: 1;
+}
+.base2{
+    flex-basis: 2;
+}
