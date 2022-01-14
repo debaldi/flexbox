@@ -203,3 +203,45 @@ Alinhamento dos elementos pelo eixo secundário 'cross' dependendo da propriedad
 .reduzir3{
     flex-shrink: 3;
 }
+
+/* flex
+    Shorthand de: flex-grow flex-shrink flex-basis;
+    o mais usado é flex:0; e flex:1;   
+    
+    flex: 0; é o mesmo que:
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: 0;
+
+    flex: 1; é o mesmo que:
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+
+    Pode ser usado assim também:
+    flex: valor valor pixel;
+*/
+.flex0{
+    flex: 0;
+}
+.flex1{
+    flex: 1;
+}
+.flexValor{
+    flex: 3 2 200px;
+}
+.shorthand-flex0{
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: 0;
+}
+.shorthand-flex1{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;   
+}
+.shorthand-flex-valor{
+    flex-grow: 3;
+    flex-shrink: 2;
+    flex-basis: 200px; 
+}
