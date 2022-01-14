@@ -164,3 +164,24 @@ Alinhamento dos elementos pelo eixo secundário 'cross' dependendo da propriedad
 .base2{
     flex-basis: 2;
 }
+
+/* order
+    Elemento de flex-item, que ordena os elementos (itens) dentro do container.
+    Usado diretamente nos elementos (itens) dentro do container.
+    Podem ser usador números positivos e negativos.
+*/
+.ordem1{
+    order: 0;
+}
+.ordem2{
+    order: 1;
+}
+.ordem3{
+    order: 2;
+}
+.ordem4{
+    order: 3;
+}
+.ordem5{
+    order: 4;
+}
