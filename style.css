@@ -18,14 +18,14 @@ body{
 }
 
 /* display:flex
-Transforma o Container em flexivel
+    Transforma o Container em flexivel
 */
 .flexivel{
     display: flex;
 }
 
 /* flex-direction
-Muda o ponto de partida "Direção do Eixo" de Baixo para Cima e de Trás para Frente
+    Muda o ponto de partida dos elementos(itens) "Direção do Eixo" de Baixo para Cima e de Trás para Frente.
 */
 .horizontal{
     flex-direction: row;
