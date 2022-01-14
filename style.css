@@ -185,3 +185,21 @@ Alinhamento dos elementos pelo eixo secundário 'cross' dependendo da propriedad
 .ordem5{
     order: 4;
 }
+
+/* flex-shrink
+    É dependente da propriedade flex-wrap:nowrap.
+    Determina se um elemento(item) vai ter a capacidade de reduzir ou não, e tem por padrão o valor 1 que é o valor com capacidade de redução e o valor 0 não pode reduzir o elemento(item).
+    Quanto maior o valor, maior é a capacidade de redução do elemento.   
+*/
+.reduzir0{
+    flex-shrink: 0;
+}
+.reduzir1{
+    flex-shrink: 1;
+}
+.reduzir2{
+    flex-shrink: 2;
+}
+.reduzir3{
+    flex-shrink: 3;
+}
