@@ -93,19 +93,19 @@ Alinhamento dos elementos pelo eixo principal 'main', dependendo da propriedade 
 /* align-items - EIXO SECUNDÁRIO
 Alinhamento dos elementos pelo eixo secundário 'cross', dependendo da propriedade flex-direction.
 */
-.alinhamento-cross-esticado{
+.alinhamento-itens-cross-esticado{
     align-items: stretch;
 }
-.alinhamento-cross-comeco{
+.alinhamento-itens-cross-comeco{
     align-items: flex-start;
 }
-.alinhamento-cross-fim{
+.alinhamento-itens-cross-fim{
     align-items: flex-end;
 }
-.alinhamento-cross-meio{
+.alinhamento-itens-cross-meio{
     align-items: center;
 }
-.alinhamento-cross-base{
+.alinhamento-itens-cross-base{
     align-items: baseline;
 }
 
@@ -131,7 +131,7 @@ Alinhamento dos elementos pelo eixo secundário 'cross' dependendo da propriedad
     align-content: space-between;
 }
 
-/* flex-grow
+/* flex-grow - ITEM
     É o tamanho que o elemento ocupará dentro do container, flex-grow: 0 ou 1 ou 2 ou 3.
     E o justify-content não se aplica quando estiver usando flex-grow nos elementos.
 */
@@ -165,7 +165,7 @@ Alinhamento dos elementos pelo eixo secundário 'cross' dependendo da propriedad
     flex-basis: 2;
 }
 
-/* order
+/* order - ITEM
     Elemento de flex-item, que ordena os elementos (itens) dentro do container.
     Usado diretamente nos elementos (itens) dentro do container.
     Podem ser usador números positivos e negativos.
@@ -244,4 +244,17 @@ Alinhamento dos elementos pelo eixo secundário 'cross' dependendo da propriedad
     flex-grow: 3;
     flex-shrink: 2;
     flex-basis: 200px; 
+}
+
+/* algin-self - ITEM
+    Alinhamento de cada item pelo eixo secundário 'cross' dependendo da propriedade flex-direction.
+*/
+.alinhamento-item-cross-comeco{
+    align-self: flex-start;
+}
+.alinhamento-item-cross-fim{
+    align-self: flex-end;
+}
+.alinhamento-item-cross-meio{
+    align-self: center;
 }
