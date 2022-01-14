@@ -68,7 +68,7 @@ Shorthand de flex-direction e flex-wrap */
     flex-flow: column-reverse;
 }
 
-/* justify-content
+/* justify-content - EIXO PRINCIPAL
 Alinhamento dos elementos pelo eixo principal 'main', dependendo da propriedade flex-direction.
 */
 .alinhamento-main-comeco{
@@ -90,7 +90,7 @@ Alinhamento dos elementos pelo eixo principal 'main', dependendo da propriedade 
     justify-content: space-evenly;
 }
 
-/* align-items
+/* align-items - EIXO SECUNDÁRIO
 Alinhamento dos elementos pelo eixo secundário 'cross', dependendo da propriedade flex-direction.
 */
 .alinhamento-cross-esticado{
@@ -109,7 +109,7 @@ Alinhamento dos elementos pelo eixo secundário 'cross', dependendo da proprieda
     align-items: baseline;
 }
 
-/* align-content
+/* align-content - EIXO SECUNDÁRIO
 Alinhamento dos elementos pelo eixo secundário 'cross' dependendo da propriedade flex-wrap:wrap, sem as distribuições dos itens que o align-items faz.
 */
 .alinhamento-content-cross-esticado{
@@ -129,5 +129,22 @@ Alinhamento dos elementos pelo eixo secundário 'cross' dependendo da propriedad
 }
 .alinhamento-content-cross-esquerda-direita{
     align-content: space-between;
+}
+
+/* flex-grow
+    É o tamanho que o elemento ocupará dentro do container, flex-grow: 0 ou 1 ou 2 ou 3.
+    E o justify-content não se aplica quando estiver usando flex-grow nos elementos.
+*/
+.tamanho0{
+    flex-grow: 0;
+}
+.tamanho1{
+    flex-grow: 1;
+}
+.tamanho2{
+    flex-grow: 2;
+}
+.tamanho3{
+    flex-grow: 7;
 }
 
